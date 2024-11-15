@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tentang Kaktus</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <div class="jumbotron">
+        <h1>KAKTUS</h1>
+        <p>
+          Tanaman yang bisa bertahan tanpa disiram tiap hari
+        </p>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#informasi">Informasi</a>
+          </li>
+          <li>
+            <a href="#sejarah">Sejarah</a>
+          </li>
+          <li>
+            <a href="#jenis">Jenis</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ini utama -->
+      <div id="content">
+        <article id="informasi" class="card">
+          <h2>Informasi Umum</h2>
+          <img src="assets/img/artikel.png" alt="sejarah" class="featured-image" />
+          <p>
+            Kaktus dapat tumbuh pada waktu yang lama tanpa air. Kaktus biasa ditemukan di daerah-daerah yang kering (gurun). Kata jamak untuk kaktus adalah kakti. 
+            Kaktus memiliki akar yang panjang untuk mencari air dan memperlebar penyerapan air dalam tanah. Air yang diserap kaktus disimpan dalam ruang di batangnya. Kaktus juga memiliki daun yang berubah bentuk menjadi duri sehingga dapat mengurangi penguapan air lewat daun. Oleh sebab itu, kaktus dapat tumbuh pada waktu yang lama tanpa air.
+          </p>          
+        </article>
+
+        <article id="sejarah" class="card">
+          <h2>Sejarah Kaktus</h2>
+          <img src="assets/img/artikel2.jpg" alt="geografis" class="featured-image" />
+          <p>
+            Penemuan tentang kaktus dipercayai telah dimulai lama sebelum bangsa Eropa menemukan Dunia Baru. 
+            Namun, berbagai informasi mengenai tumbuhan tersebut hilang ketika terjadi penjajahan oleh Spanyol.
+            Referensi pertama mengenai tanaman kaktus ditemukan pada abad ke-16 di dalam bab 16 dari buku Historia general y natural de las Indias (1535).
+            Penulis buku tersebut, Hernandez de Oviedo y Valdez mendeskripsikan kaktus sebagai tanaman yang memiliki duri yang khas dan buah yang unik.
+            Sebagian besar spesies kaktus berasal dari Amerika Utara, Selatan, dan Tengah. Genus kaktus pertama yang diimpor ke Eropa adalah Melocactus.
+            Seorang botaniawan asal Swedia, Carl Linnaeus, memberikan nama kaktus yang diambil dari bahasa Yunani Κακτος kaktos. 
+            Dalam bahasa Yunani klasik, kata tersebut memiliki makna tanaman liar berduri.
+          </p>
+        </article>
+
+        <article id="jenis" class="card">
+          <h2>Jenis-Jenis Kaktus</h2>         
+            <div class="sub-card">
+              <article onclick="toggleDropdown(event)" class="card">
+                <h1>Opuntia Cochenillifera</h1>
+                <div class="dropdown-content" style="display: none;">
+                    <p>Kaktus centong (Opuntia cochenillifera) termasuk ke dalam famili Cactaceae dan genus Opuntia. Di Indonesia, tumbuhan ini memang disebut kaktus centong dan orang Jawa menyebutnya tentong. 
+                      Seluruh permukaan tubuhnya termasuk bagian daun tertutup oleh lapisan kutikula atau lapisan lilin yang berfungsi untuk mencegah terjadinya penguapan air yang terlalu besar. 
+                      Batangnya tebal mempunyai jaringan spons untuk menyimpan air. Akar panjang sehingga mempunyai jangkauan yang luas</p>
+                </div>
+              </article>
+
+              <article onclick="toggleDropdown(event)" class="card">
+                <h1>Saguaro</h1>
+                <div class="dropdown-content" style="display: none;">
+                    <p>Saguaro adalah spesies kaktus mirip pohon dalam genus monotipe Carnegiea yang dapat tumbuh hingga lebih dari 12 meter (40 kaki). 
+                      Tanaman ini berasal dari Gurun Sonora di Arizona, negara bagian Sonora di Meksiko, serta daerah Pegunungan Whipple dan County Imperial di California. 
+                      Bunga saguaro merupakan bunga liar negara bagian Arizona.</p>
+                </div>
+              </article>              
+
+              <article onclick="toggleDropdown(event)" class="card">
+                <h1>Schlumbergera</h1>
+                <div class="dropdown-content" style="display: none;">
+                    <p>Schlumbergera merupakan jenis tumbuhan kaktus yang berasal dari perbukitan di sebelah tenggara Brazil. 
+                      Genus ini memiliki enam spesies lagi di bawahnya. Tidak seperti kaktus yang umum diketahui, Schlumbergera merupakan tumbuhan yang hidup di lingkungan yang lembap dan teduh. 
+                      Sebagai tumbuhan epifit, ada habitatnya tumbuhan ini dapat ditemukan di dekat pohon-pohon tinggi dan bebatuan.</p>
+                </div>
+              </article>    
+            </div> 
+        </article>
+      </div>
+
+      <!-- ini samping -->
+      <aside>
+        <article class="profile card">
+          <header>
+            <h2>Tanaman Kaktus</h2>
+            <figure>
+              <img src="assets/img/side1.jpg" />
+              <figcaption>Cactaceae</figcaption>
+            </figure>
+          </header>
+
+          <section>
+            <h3>Klasifikasi Ilmiah</h3>
+            <table>
+              <tr>
+                <th>Kingdom</th>
+                <td>Plantae</td>
+              </tr>
+              <tr>
+                <th>Divisi</th>
+                <td>Spermatophyta</td>
+              </tr>
+              <tr>
+                <th>Subdivisi:</th>
+                <td>Angiospermae</td>
+              </tr>
+              <tr>
+                <th>Kelas:</th>
+                <td>Dicotyledonae</td>
+              </tr>
+              <tr>
+                <th>Ordo</th>
+                <td>Cactales</td>
+              </tr>
+            </table>
+          </section>
+        </article>
+
+        <article class="profile card">
+          <header>
+            <h2>Galeri Kaktus</h2>
+            <figure>
+              <img src="assets/img/jenis1.jpg" />
+              <figcaption>Opuntia</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/img/jenis2.jpg" />
+              <figcaption>Saguaro</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/img/jenis3.jpg" />
+              <figcaption>Schlumbergera</figcaption>
+            </figure>
+            <figure>
+              <img src="assets/img/jenis4.jpg" />
+              <figcaption>Mammillaria</figcaption>
+            </figure>
+          </header>    
+        </article>
+      </aside>
+    </main>
+
+    <footer>
+      <p>PT Mencari Kaktus Sejari</p>
+    </footer>
+    
+    <script>
+      function toggleDropdown(event) {
+        var kaktus = event.currentTarget;
+        var dropdown = kaktus.querySelector(".dropdown-content");
+        if (dropdown.style.display === "none" || dropdown.style.display === "") {
+            dropdown.style.display = "block";
+        } else {
+            dropdown.style.display = "none";
+        }
+      }
+    </script>  
+  </body>
+</html>

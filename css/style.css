@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  margin: 0;
+  padding: 0;
+}
+ 
+h2,
+h3 {
+  color: #3B3030;
+}
+ 
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #B99470; 
+  text-align: center;
+  font-weight: bold;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ 
+nav a {
+  font-size: 18px; 
+  font-weight: 400;
+  text-decoration: none; 
+  color: white;
+}
+ 
+nav a:hover {
+  font-weight: bold;
+}
+ 
+.profile header {
+  text-align: center;
+}
+ 
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center;
+}
+ 
+.profile img {
+  max-width: 200px;
+}
+
+.profile{
+  font-family: "Kanit", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem 2rem;
+  margin-bottom: 25px;
+}
+ 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px; 
+  padding: 20px;
+}
+
+.sub-card article{
+  margin-top: 10px;
+  padding: 10px 10px 10px 20px;
+  text-align: center;
+  background-color: #FFFFF8;
+}
+ 
+.jumbotron {
+  font-size: 20px;
+  padding: 40px;
+  background-color: #C0C78C;
+  text-align: center;
+  color: #3B3030;
+}
+
+.jumbotron h1{
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.jumbotron p{
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+ 
+nav ul {
+  padding-inline: 4rem;
+  display: flex;
+ 
+  gap: 2rem;
+}
+ 
+nav li {
+  list-style-type: none;
+}
+
+nav a{
+  color: #3B3030; 
+}
+ 
+nav {
+  background-color: #A6B37D;
+  
+  padding: 5px; 
+  position: sticky;
+  top: 0;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+ 
+main {
+  padding: 20px;  
+  display: flex;
+  gap: 1.5rem;
+  background-color: #FFFFF8;
+}
+article{
+  background-color: #FEFAE0; 
+}
+
+figure img{
+  border-radius: 20px;
+}
+
+#content {
+  flex: 5; 
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem 2rem;
+}
+ 
+aside {
+  flex: 1;
+}
+ 
+header {
+  display: inline;
+}
+
+#informasi, #sejarah, #wisata, #jenis{
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+section{
+  text-align: center;
+}
+
+table{
+  object-position: center;
+}
+
+
+@media screen and (max-width: 1200px) {
+  main {
+    flex-flow: column nowrap;
+  } 
+  main aside {
+    align-self: center;
+  }
+}
+ 
+@media screen and (max-width: 768px) {
+  nav ul {
+    justify-content: center;
+  }
+  main aside {
+    align-self: stretch;
+  }
+}
